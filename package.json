@@ -11,12 +11,15 @@
     "express-handlebars": "^5.3.2",
     "express-session": "^1.17.1",
     "mysql2": "^2.2.5",
+    "seed": "^0.4.4",
     "sequelize": "^6.6.2"
   },
   "devDependencies": {},
   "scripts": {
     "test": "jest",
-    "start": "node server.js"
+    "start": "node server.js",
+    "watch": "nodemon server.js",
+    "seed": "node seeds/index.js"
   },
   "repository": {
     "type": "git",

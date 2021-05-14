@@ -12,22 +12,31 @@
   <div class="wrapper">
     <header>
         <h1>
-          <a href="/">Just Tech News</a>
+          <a href="/">Tech Blog</a>
         </h1>
         <nav>
-          {{#if loggedIn}}
-          <a href="/dashboard">dashboard</a>
-          <button id="logout" class="btn-no-style">logout</button>
-          {{else}}
-          <a href="/login">login</a>
-          {{/if}}
+            {{#if loggedIn}}
+            <a href="/homepage">Home</a>
+
+            <a href="/dashboard">Dashboard</a>
+
+            <button id="logout" class="btn-no-style">logout</button>
+            {{else}}
+            <a href="/homepage">Home</a>
+
+            <a href="/dashboard">Dashboard</a>
+
+            <a href="/login">login</a>
+            {{/if}}
         </nav>
     </header>
+
     <main>
       {{{ body }}}
     </main>
+
     <footer>
-      Thanks for visiting!
+      Post to your hearts content | Thanks for Visiting !
     </footer>
   </div>
   
