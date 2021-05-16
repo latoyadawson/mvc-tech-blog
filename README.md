@@ -12,9 +12,9 @@ CMS-style blog where developers can publish thier blog posts and comment on othe
 
 
 ## Screenshot
-![screenshot of startpage](Develop/assets/category-routes.gif)
-
-![screenshot of next page](Develop/assets/product-routes.gif)
+![screenshot of homepage](assets/home.png)
+![screenshot of login page](assets/login-page.png)
+![screenshot of new post](assets/new-post.png)
 
 ## User Story
 * AS A developer who writes about tech
