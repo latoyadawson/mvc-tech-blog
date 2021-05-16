@@ -1,15 +1,18 @@
 <div class="card">
-    <h3 class="card-header">Login</h3>
-
-    <form id="login-form" class="card-body">
-        <label class="form-label" for="username-login">Username</label>
-        <input  id="username-login" type="text" autofocus="true" class="form-input" />
-
-        <label class="form-label" for="password-login">Password</label>
-        <input id="password-login" type="password" autofocus="true" class="form-input" />
-
-        <button type="submit" class="btn">Login!</button>
-        <a class="login-link" href="/signup">Sign up instead</a>
+    <h3 class="card-header bg-gradient bg-info">Login</h3>
+    <form class="login-form card-body">
+        <div class="mb-3">
+            <label for="username-login" class="form-label">Username</label>
+            <input id="username-login" autofocus="true" type="text" class="form-control form-input"/>
+        </div>
+        <div class="mb-3">
+            <label for="password-login" class="form-label">Password</label>
+            <input id="password-login" type="password" autofocus="true" class="form-input form-control"/>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-info">LOGIN</button>
+        </div>
+        <a class="signup-link" href="/signup">Sign up instead!</a>
     </form>
 </div>
     

@@ -2,13 +2,15 @@
 
 {{#if loggedIn}}
 <div class="card">
-    <h3 class="card-header"></h3>
+    <div class="card-header bg-dark">&nbsp</div>
     <form class="card-body comment-form" id="comment-form">
-
-        <label class="form-label">Comment</label>
-        <input id="comment" name="comment-body" class="form-input" />
-
-        <button type="submit" class="btn">Submit</button>
+        <div class="mb-3">
+            <label class="form-label">Comment</label>
+            <textarea id="comment" name="comment-body" class="form-input form-control"></textarea>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-info">Submit</button>
+        </div>
     </form>
 </div>
 {{/if}}

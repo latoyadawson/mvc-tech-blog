@@ -6,30 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tech Blog</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  {{!-- <link rel="stylesheet" href="/stylesheets/style.css"> --}}
+  <link rel="stylesheet" href="/stylesheet/style.css">
 </head>
 
 <body>
   <div class="wrapper">
     <header>
-        <h1>
-          <a href="/">Tech Blog</a>
-        </h1>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            {{#if loggedIn}}
-            <a href="/">Home</a>
-
-            <a href="/dashboard">Dashboard</a>
-
-            <button id="logout" class="btn-no-style">Logout</button>
-            {{else}}
-            <a href="/">Home</a>
-
-            <a href="/dashboard">Dashboard</a>
-
-            <a href="/login">Login</a>
-            {{/if}}
-        </nav>
+      {{> nav/navigation }}
     </header>
 
     <main>

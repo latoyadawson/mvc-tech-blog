@@ -1,5 +1,16 @@
 
 * {
     box-sizing: border-box;
+    margin: 10px;
 }
   
+.navbar {
+    background-color:  lavender;
+}
+
+.card-body {
+    background-color: lavender;
+}
+.card {
+    border: none;
+}
